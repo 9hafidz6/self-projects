@@ -18,15 +18,8 @@ class ReverseLinkedList:
             curr = temp_curr
 
         print(curr.value)
+        #return the new head node
         return curr
-        #print the reverse linklist 
-        # elem = []
-        
-        # while curr != None:
-        #     elem.append(curr.value)
-        #     curr = curr.next
-        # print(elem)
-
 
 class Node:
     def __init__(self, Value = None):
