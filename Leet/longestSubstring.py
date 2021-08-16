@@ -1,4 +1,4 @@
-#leetcode 3 longest consecutive substring without repeating characters 
+#leetcode 3, longest consecutive substring without repeating characters 
 #my method (not optimal)
 #O(n^2)
 

@@ -20,15 +20,19 @@ class Solution:
             r = inplen - 1
             # for j in range(i,inplen):
             while l < r:
+                #same method as two sum II
                 sum = inplist[i] + inplist[l] + inplist[r]
                 if sum > 0:
                     r -= 1
                 elif sum < 0:
                     l += 1
                 elif sum == 0:
+                    #append the 3 numbers in the result list
                     result.append([num,inplist[l], inplist[r]])
                     l += 1
                     while inplist[l] == inplist[l-1]:
+                        #for the case of [-2,-2,0,0,2,2]
+                        #to avoid duplicate combinations 
                         l += 1
 
         return result

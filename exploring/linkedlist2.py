@@ -6,6 +6,7 @@ class Node:
 
 class slinkedlist:
     def __init__(self):
+        #the head node is used as a placeholder
         self.head = Node()
 
     def append(self,node):

@@ -7,6 +7,7 @@ class Node:
     
 class SLinkedlist:
     def __init__(self):
+        #this is used as a placeholder 
         self.headval = None
 
     def printlist(self):
