@@ -22,8 +22,10 @@ class Solution:
             while l < r:
                 #same method as two sum II
                 sum = inplist[i] + inplist[l] + inplist[r]
+                #if sum is greater than 0, reduce r pointer to that next computed sum will be lower
                 if sum > 0:
                     r -= 1
+                #if sum is lower than 0, increase l pointer to that next computed sum will be greater    
                 elif sum < 0:
                     l += 1
                 elif sum == 0:

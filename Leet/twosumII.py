@@ -1,4 +1,4 @@
-#leetcode twosum
+#leetcode twosum, find 2 number that add up to target
 #input list that are sorted
 #time complexity is O(n) by using 2 pointer method
 #question uses 1 based index
@@ -30,6 +30,7 @@ def main():
     inp = inp.strip("[]")
     # print(inp)
     inplist = inp.split(",")
+    #convert elements in inplist to int type
     inplist = [int(i) for i in inplist]
     # print(type(inplist), inplist)
     print(sol.soln(inplist,int(target)))

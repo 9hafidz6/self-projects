@@ -27,6 +27,7 @@ def main():
         objList.append(obj)
 
     for num,i in enumerate(objList):
+        print(i) # memory address of the object instance 
         print(num+1,i.getName())
 
 if __name__ == "__main__":

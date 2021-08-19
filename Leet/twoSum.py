@@ -7,8 +7,9 @@ class Solution:
         self.name = ""
 
     def soln(self, inplist, target):
-        l = 0
-        r = len(inplist) - 1
+        #two pointer method not needed 
+        # l = 0
+        # r = len(inplist) - 1
         inplen = len(inplist)
         for i in range(inplen):
             requireNum = int(target) - int(inplist[i])
