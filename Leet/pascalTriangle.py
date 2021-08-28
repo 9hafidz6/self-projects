@@ -1,3 +1,4 @@
+#pascal triangle 
 
 class Solution:
     def __init__(self):
@@ -12,7 +13,6 @@ class Solution:
             new_row = []
             #for j in range((len(res[-1])+1)): not plus 2 as it will be out of range 
             for j in range((len(res[i])+1)):
-            # for j in range((len(res[-1])+1)): can also use 
                 new_row.append(temp_list[j] + temp_list[j+1])
             res.append(new_row)
 
