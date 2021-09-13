@@ -1,5 +1,5 @@
 #!/bin/python3
-
+# did not manage to pass all test cases
 import math
 import os
 import random

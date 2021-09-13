@@ -21,16 +21,19 @@ class TreeNode:
             node.right = self.insert(node.right,data)
         return node 
 
-    def traverse_inorder(self,root):
+    def traverse_inorder(self,root): # Depth First Search 
         if root is not None:
             self.traverse_inorder(root.left)
             print(root.data)
             self.traverse_inorder(root.right)
+
     def traverse_preorder(self,root):
         if root is not None:
+            
             print(root.data)
             self.traverse_preorder(root.left)
             self.traverse_preorder(root.right)
+
     def traverse_postorder(self,root):
         if root is not None:
             self.traverse_postorder(root.left)
