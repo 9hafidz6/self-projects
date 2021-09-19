@@ -1,0 +1,72 @@
+<!--https://www.w3schools.com/html/default.asp -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <!--this is an internal way to add CSS to a HTML document
+    other way is to use external CSS with a .css file in current directory-->
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: black;}
+    </style>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <body>
+        <h1 title="this is hello world" style="font-size:40px;">Hello world!</h1>
+        <p style="background-color:grey;">this is my first paragaph <br> and this is the second line</p>
+        <a href="https://www.w3schools.com/html/default.asp">This is a link to the W3 school about<br><br></a>
+        <hr>
+        <pre style="text-align: left;">
+        this is a photo of
+        us in NTU
+        </pre>
+        <!-- src can be absolute or relative
+        1. Absolute URL - Links to an external image that is hosted on another website. 
+        Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+        Notes: External images might be under copyright. If you do not get permission to use it, 
+        you may be in violation of copyright laws. In addition, you cannot control external images;
+        it can suddenly be removed or changed.
+
+        2. Relative URL - Links to an image that is hosted within the website. Here, the URL does
+        not include the domain name. If the URL begins without a slash, it will be relative to the
+        current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be 
+        relative to the domain. Example: src="/images/img_girl.jpg".
+
+        Tip: It is almost always best to use relative URLs. They will not break if you change domain.-->
+        <img src="test.jpg" width="100" height="100" alt="picture of us aka test.jpg">
+        <p style="color:red;">This is a red paragraph.</p>
+
+        <!-- Formatting text 
+            <b> - Bold text
+            <strong> - Important text
+            <i> - Italic text
+            <em> - Emphasized text
+            <mark> - Marked text
+            <small> - Smaller text
+            <del> - Deleted text
+            <ins> - Inserted text
+            <sub> - Subscript text
+            <sup> - Superscript text
+        -->
+        <p>Do not forget to buy <mark>milk</mark> today.</p>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+        <!-- Quotation and Citation elements 
+            <abbr>	Defines an abbreviation or acronym
+            <address>	Defines contact information for the author/owner of a document
+            <bdo>	Defines the text direction
+            <blockquote>	Defines a section that is quoted from another source
+            <cite>	Defines the title of a work
+            <q>	Defines a short inline quotation
+        -->
+        
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html" style="color:blue">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+    </body>
+</html>
